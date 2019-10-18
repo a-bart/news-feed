@@ -1,0 +1,40 @@
+@import '../../styles/variables.styl'
+
+.card {
+  &_image-holder {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+
+    & > a {
+      overflow: hidden;
+      display: block;
+
+      & > img {
+        object-fit: cover;
+      }
+    }
+  }
+
+  &_content {
+    border: 1px solid $light-color;
+    padding: 38px 27px 21px;
+
+    &_title {
+      text-transform: uppercase;
+
+      &:hover {
+        color: $active-color;
+      }
+
+      & > h3 {
+        margin: 0;
+      }
+    }
+
+    &_text {
+      color: $text-color;
+      font-weight: 300;
+    }
+  }
+}

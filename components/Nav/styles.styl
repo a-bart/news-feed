@@ -1,0 +1,60 @@
+@import '../../styles/variables.styl'
+
+.menu-area {
+  height: $header-height;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $header-color;
+
+  .main-menu {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: auto;
+
+    & > ul {
+      position: relative;
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+
+      & > li {
+        float: left;
+        height: 100%;
+        box-sizing: border-box;
+
+        & > a {
+          position: relative;
+          display: inline-block;
+          width: 100%;
+          vertical-align: middle;
+          height: 100%;
+          padding: 0 18px;
+          margin: 0;
+          color: $primary-color;
+          font-size: 12px;
+          line-height: 23px;
+          box-sizing: border-box;
+          font-weight: 600;
+          letter-spacing: .1em;
+          text-transform: uppercase;
+
+          &:hover, &.active {
+            color: $active-color;
+          }
+
+          & > span {
+            position: relative;
+            display: block;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            transform: translateY(-50%);
+          }
+        }
+      }
+    }
+  }
+}

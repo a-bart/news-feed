@@ -1,0 +1,35 @@
+{
+  "name": "news-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-stylus": "1.0.1",
+    "axios": "0.19.0",
+    "moment": "^2.24.0",
+    "next": "9.1.1",
+    "next-redux-saga": "4.0.2",
+    "next-redux-wrapper": "4.0.1",
+    "react": "16.10.2",
+    "react-content-loader": "4.3.2",
+    "react-dom": "16.10.2",
+    "react-lazyload": "2.6.2",
+    "react-redux": "7.1.1",
+    "redux": "4.0.4",
+    "redux-saga": "1.1.1",
+    "stylus": "0.54.7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}

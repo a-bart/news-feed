@@ -1,0 +1,32 @@
+@import '../../styles/variables.styl'
+
+.block {
+  display: flex;
+  flex-direction column;
+  margin: 50px 0;
+
+  .block-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+
+    &_header {
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+    }
+
+    &_more {
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      color: $text-color;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
